@@ -294,7 +294,7 @@ namespace com.bloomberg.emsx.samples
             Request request = service.CreateRequest("cancelIoi");
 
             Element handle = request.GetElement("handle");
-            handle.SetElement("value", "0ad886e0-e43a-478c-b6e5-c50d5e9dabcd");
+            handle.SetElement("value", "54f00652-18bc-4d18-b911-adbd7da893a2");
 
             System.Console.WriteLine("Sending Request: " + request.ToString());
 
